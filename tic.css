@@ -1,0 +1,38 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.game-container {
+  display: inline-block;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2em;
+  background: #1e1e2f;
+  border: none;
+  color: #00ffff;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #00ffff;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+}
